@@ -1,0 +1,80 @@
+/*============= common  style ============ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*================ top banner style ================ */
+
+.top-banner {
+    display: flex;
+    margin-top: 55px;
+}
+
+.top-banner .top-banner-info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.top-banner-info h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.top-banner-info p {
+    font-size: 16p;
+}
+
+.top-banner-info button {
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.top-banner-info i {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.top-banner .top-banner-image {
+    width: 50%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+}
+
+.top-banner-image img {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+/*=========== brand logo section style ============= */
+
+.logo-section {
+    margin: 100px 2%;
+}
+
+.logo-section hr {
+    border-top: 0;
+}
+
+.brand-logo {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
