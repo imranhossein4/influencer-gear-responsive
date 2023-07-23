@@ -81,7 +81,7 @@ body {
 
 /*================= products section style ===================== */
 .product-section h2 {
-    font-size: 28px;
+    font-size: 38px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -214,7 +214,6 @@ button i {
 
     /*============== top banner section============== */
     .top-banner {
-        display: flex;
         flex-direction: column-reverse;
         margin-top: 0;
     }
@@ -271,7 +270,7 @@ button i {
     /*=========== featured product ============ */
     .featured-product {
         flex-direction: column-reverse;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         margin-top: 10px;
     }
 
@@ -292,5 +291,100 @@ button i {
 
     .featured-product .info h2 {
         font-size: 32px;
+    }
+}
+
+/*======================= responsive for tablet ===================== */
+@media only screen and (min-width: 577px) and (max-width:992px) {
+    .container {
+        width: 98%;
+    }
+
+    /*========= top banner section ========= */
+    .top-banner {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .top-banner .top-banner-image {
+        width: 100%;
+
+    }
+
+    .top-banner-image img {
+        width: 80%;
+    }
+
+
+    .top-banner .top-banner-info {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .top-banner-info h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+    .top-banner-info button {
+        margin-top: 20px;
+    }
+
+    /*============ logo section ============= */
+
+    .logo-section {
+        margin: 20px 2%;
+    }
+
+    .brand-logo {
+        flex-wrap: wrap;
+    }
+
+    .brand-logo img {
+        margin: 4px 4px;
+
+    }
+
+    /*============ products section ========== */
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-section h2 {
+        font-size: 38px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /*=========== featured product ============ */
+    .featured-product {
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .featured-product .image {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .image img {
+        width: 100%;
+
+    }
+
+    .featured-product .info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured-product .info button {
+        margin-top: 20px;
+    }
+
+    .featured-product .info h2 {
+        font-size: 38px;
     }
 }
