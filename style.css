@@ -201,3 +201,96 @@ button i {
     color: white;
     margin-left: 15px;
 }
+
+/*======================= responsive by media quarey====================== */
+
+
+/*================== responsive for mobile ================= */
+
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    /*============== top banner section============== */
+    .top-banner {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .top-banner .top-banner-image {
+        width: 100%;
+
+    }
+
+    .top-banner-image img {
+        width: 100%;
+    }
+
+
+    .top-banner .top-banner-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-banner-info h1 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .top-banner-info button {
+        margin: 0;
+    }
+
+    /* ========logo section ========= */
+    .logo-section {
+        margin: 20px 2%;
+    }
+
+    .brand-logo {
+        flex-wrap: wrap;
+    }
+
+    .brand-logo img {
+        width: 20%;
+        margin: 7px 7px;
+
+    }
+
+    /*============ products section ========== */
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product-section h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    /*=========== featured product ============ */
+    .featured-product {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .featured-product .image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .image img {
+        width: 100%;
+
+    }
+
+    .featured-product .info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured-product .info h2 {
+        font-size: 32px;
+    }
+}
